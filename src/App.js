@@ -28,13 +28,13 @@ export default class App extends React.Component {
             <img src={logo} alt=""/>
           </div>
           <ul className='route'>
-            <li><Link to='/home'>Home</Link></li>
-            <li><Link to='/link'>Link</Link></li>
-            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/jenkins/home'>Home</Link></li>
+            <li><Link to='/jenkins/link'>Link</Link></li>
+            <li><Link to='/jenkins/about'>About</Link></li>
           </ul>
-          <Route exact path="/home" component={router.home.home}/>
-          <Route exact path="/link" component={router.link.link}/>
-          <Route exact path="/about" component={router.about.about}/>
+          <Route exact path="/jenkins/home" component={router.home.home}/>
+          <Route exact path="/jenkins/link" component={router.link.link}/>
+          <Route exact path="/jenkins/about" component={router.about.about}/>
         </div>
       </Router>
     );
