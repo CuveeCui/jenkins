@@ -34,7 +34,7 @@ module.exports = {
   },
   build: {
     // 打包后静态资源引用的绝对地址
-    publicPath: '/jenkins',
+    publicPath: '/jenkins/',
     // 打包后静态资源的上层目录
     directory: 'static',
     // 打包的eslint规则
